@@ -1,30 +1,3 @@
-# 🧠 AI Medical Diagnosis System
-
-This project is an **Intelligent Diagnostic System (IDS)** developed as part of an Artificial Intelligence course. The system simulates basic medical reasoning by analyzing patient symptoms and suggesting possible diagnoses, tests, and treatments.
-
----
-
-## 📌 Overview
-
-The goal of this project is to demonstrate how different AI techniques can be combined to model a real-world problem in the medical domain.
-
-The system takes patient symptoms as input and processes them using logical rules and search algorithms to:
-
-- Identify possible diseases  
-- Recommend diagnostic tests  
-- Suggest appropriate treatments  
-
----
-
-## ⚙️ Features
-
-- Knowledge representation using **First-Order Logic (FOL)**
-- Rule-based reasoning (designed for Prolog integration)
-- Implementation of **Search Algorithms**
-- Performance comparison between algorithms
-- Simple and clear system workflow
-
----
 
 ## 🔍 Search Algorithms
 
@@ -56,14 +29,16 @@ The system outputs:
 Example:
 
 BFS Result:
-Path: start → pcr → diagnosis  
-Nodes explored: 5  
-Time: 0.0001 seconds  
+Result Path: start → pcr → diagnosis
+Explored order: start → pcr → blood → xray → diagnosis
+Nodes explored: 5
+Time: 4e-06 seconds
 
 A* Result:
-Path: start → pcr → diagnosis  
-Nodes explored: 3  
-Time: 0.00005 seconds  
+Result Path: start → pcr → diagnosis
+Explored order: start → pcr → diagnosis
+Nodes explored: 3
+Time: 3e-06 seconds
 
 ---
 
@@ -87,23 +62,10 @@ python3 main.py
 
 ## 📊 Project Structure
 
-ai-medical-diagnosis-system/
+ai-search/
 │
 ├── main.py
 ├── README.md
 
 ---
-
-## 🎯 Purpose
-
-This project demonstrates how AI can be used to simulate decision-making in healthcare by combining:
-
-- Logical reasoning  
-- Search strategies  
-- Structured knowledge representation  
-
----
-
-## 👩‍💻 Authors
-
 - AI Course Students (Group Project)
