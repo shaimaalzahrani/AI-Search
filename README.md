@@ -58,14 +58,3 @@ python3 main.py
 - Search Algorithms (BFS, A*)  
 - AI Concepts (Knowledge Representation, Reasoning, Search)
 
----
-
-## 📊 Project Structure
-
-ai-search/
-│
-├── main.py
-├── README.md
-
----
-- AI Course Students (Group Project)
